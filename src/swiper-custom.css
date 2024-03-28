@@ -1,0 +1,36 @@
+/* Custom pagination color */
+
+.swiper-pagination-bullet {
+  background-color: white;
+}
+
+/* Custom navigation arrow color */
+.swiper-button-next,
+.swiper-button-prev {
+  color: black;
+  font-size: 5px;
+}
+
+.mySwiper .swiper-pagination-bullet {
+  /* Your styles for the pagination bullet */
+  background-color: #96ded1;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+  /* Your styles for the active pagination bullet */
+  background-color: black;
+}
+
+.swiper-pagination-bullet {
+  transition: transform 0.3s ease; /* Add transition property */
+}
+
+.swiper-pagination-bullet-active {
+  transition: transform 0.3s ease; /* Add transition property */
+}
+
+.swiper-pagination-bullet-active:hover {
+  transform: scale(
+    1.5
+  ); /* Example animation: scale the active bullet on hover */
+}
