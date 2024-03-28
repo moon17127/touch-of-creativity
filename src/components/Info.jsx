@@ -46,7 +46,7 @@ function Info() {
               </div>
               {isNavOpen && (
                 <a
-                  href="tel:+200574857926"
+                  href="tel:+966574857926"
                   className="p-1 px-2 text-sm rounded-lg bg-main"
                 >
                   الإتصال بنا
@@ -56,7 +56,7 @@ function Info() {
 
             <a
               className="hidden p-1 px-5 text-2xl rounded-lg md:block bg-main"
-              href="tel:+200574857926"
+              href="tel:+966574857926"
             >
               الإتصال بنا
             </a>
